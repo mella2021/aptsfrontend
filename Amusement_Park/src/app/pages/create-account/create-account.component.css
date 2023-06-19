@@ -1,0 +1,17 @@
+#create-acc{
+        text-align: center;
+        color: black;
+        border-bottom: solid black 2px;
+        border-top: solid black 2px;
+     }
+     .imagelogo{
+        display:block;
+        justify-content:left;
+        align-items: center;
+        height: 20px;
+    
+    }
+    .imagelogo img{
+    max-width:100%;
+    max-height:100%;
+    }
