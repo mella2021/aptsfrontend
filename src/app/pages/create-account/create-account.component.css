@@ -1,0 +1,36 @@
+
+   
+    h3{
+      text-align: center;
+      color: rgb(97, 6, 70);
+
+    }
+    form{
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align: center;
+      font-size:large;
+      border-bottom: 2px solid rgb(95, 6, 76) ;
+      padding: 10px;
+  }
+ .buttons{
+   padding-right: 10px;
+ }
+  button{
+   color: rgb(170, 15, 98);
+
+}
+ 
+  
+  
+  .card{
+      border-style: double;
+      text-align: center;
+      background-color:whitesmoke;
+      margin-right:300px;;
+      margin-left:365px;    
+      margin-top: auto; 
+      margin-bottom: auto;
+      height:fit-content;
+      width:50%;
+  
+  }

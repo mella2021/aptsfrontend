@@ -1,0 +1,27 @@
+
+<br>
+<div class="card">
+<div class="logo-container">
+</div>
+<img src ="assets/logofinal.png" alt="logo">
+<p id="title">Amusement Park Ticketing System</p>
+<form (ngSubmit)="onSubmit()">
+    <label for="username">USERNAME: </label>
+    <input type ="text" name="username" [(ngModel)]="username" required size="40px"><br>
+    <label for="password">PASSWORD: </label>
+    <input type ="password" name="password" [(ngModel)]="password"required size="40px"><br><br>
+    <button type="submit">LOG IN</button>
+<br>
+<br>
+<br>
+<div class="loginpage">
+    <label for="create-account">Doesn't have an account? </label>
+    <a  routerLink="/create-account">Create one </a><br>
+    <label for="reset-password">Forgot Password?   </label>
+    <a  routerLink="/reset-password">Click here </a><br><br>
+
+</div>
+
+</form>
+</div>
+

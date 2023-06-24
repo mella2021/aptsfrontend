@@ -1,0 +1,64 @@
+#title{
+    text-align: center;
+    color: rgb(97, 6, 70);
+    text-decoration: wavy;
+    font-size: xx-large;
+    border-bottom: solid black 2px;
+    border-top: solid black 2px;
+}
+/* .logo-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+
+} */
+ img {
+    display:block;
+    justify-content: center;
+    height: 100px;
+    width:100px;
+  
+
+}
+form{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size:large;
+    border-bottom: 2px solid rgb(95, 6, 76) ;
+}
+footer{
+    font-weight: bolder;
+    margin-left:2px;
+}
+
+
+
+.card{
+    border-style: double;
+    text-align: center;
+    background-color:whitesmoke;
+    margin-right:300px;;
+    margin-left:365px;    
+    margin-top: auto; 
+    margin-bottom: auto;
+    height:fit-content;
+    width:50%;
+
+}
+#btn1{
+    margin-right:100px;
+}
+#btn2{
+    margin-left:50px;
+}
+h1{
+    font-family:cursive;
+    color: rgb(170, 15, 98);
+}
+button{
+    color: rgb(170, 15, 98);
+
+}
+
+

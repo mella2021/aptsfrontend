@@ -1,0 +1,33 @@
+<br>
+<br>
+<div class="card">
+<div class="logo-container">
+</div>
+<br>
+<h3 >CREATE AN ACCOUNT</h3>
+<form (ngSubmit)="onRegister()">
+    <div>
+        <label for="username">Username</label>
+        <input type="text" name="username" [(ngModel)]="username" required>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email"  [(ngModel)]="email" required>
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" [(ngModel)]="password" required>
+    </div>
+    <div>
+        <label for="confirmpass">Confirm password</label>
+        <input type="password" name="confirmpass"[(ngModel)]="confirmpass"  required>
+    </div>
+    <br>
+<button class="buttons" type="submit">Submit</button>
+<button class="buttons" type="button">Back</button>
+    
+<br>
+</form>
+</div>
+<router-outlet></router-outlet>
+
