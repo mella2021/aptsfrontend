@@ -5,7 +5,7 @@
 </div>
 <br>
 <h3 >CREATE AN ACCOUNT</h3>
-<form (ngSubmit)="onRegister()">
+<form  (ngSubmit)="onRegister()">
     <div>
         <label for="username">Username</label>
         <input type="text" name="username" [(ngModel)]="username" required>
@@ -16,16 +16,17 @@
     </div>
     <div>
         <label for="password">Password</label>
-        <input type="password" name="password" [(ngModel)]="password" required>
+        <input type="password" name="password" [(ngModel)]="password"  formControlname= "password"  required>
     </div>
     <div>
         <label for="confirmpass">Confirm password</label>
-        <input type="password" name="confirmpass"[(ngModel)]="confirmpass"  required>
+        <input type="password" name="confirmpass"[(ngModel)]="confirmpass" formControlname="confirmpass"  required>
     </div>
+    <!-- <div *ngIf="registrationForm.hasError ('passwordsMismatch')">Passwords  do not match</div> -->
     <br>
-<button class="buttons" type="submit">Submit</button>
-<button class="buttons" type="button">Back</button>
-    
+<button class="buttons" type="submit"  >Submit</button>
+<button class="buttons" (click)="navigatetohome()">Back</button>
+
 <br>
 </form>
 </div>

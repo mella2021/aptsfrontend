@@ -17,6 +17,7 @@ export class LoginComponent implements OnInit {
   onSubmit(){
     console.log('Username: ' + this.username);
     console.log('Password: ' + this.password);
+    this.router.navigate(['/entrance-ticket'])
 
 
     }

@@ -2,8 +2,8 @@ body{
     background-color: rgb(129, 66, 105);
     border-bottom: 2px solid black;
     border-top: 2px solid black;
-    border-left: 2px solid black ;
-    border-right:  2px solid black;
+    /* border-left: 2px solid black ;
+    border-right:  2px solid black; */
 
 }
 .footer{
@@ -14,8 +14,4 @@ body{
     background-color: rgb(128, 17, 109);
     text-align: center;
     color: whitesmoke;
-}
-img {
-    width:200px;
-    height:100px;
 }

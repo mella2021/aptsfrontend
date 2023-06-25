@@ -1,0 +1,35 @@
+img{
+    width:500px;
+    height:500px;
+}
+h3{
+    text-align: center;
+    color: rgb(97, 6, 70);
+}
+.card{
+    border-style: double;
+    text-align: center;
+    background-color:whitesmoke;
+    margin-right:300px;
+    margin-left:365px;    
+    margin-top: auto; 
+    margin-bottom: auto;
+    height:fit-content;
+    width:50%;
+
+}
+
+img {
+    display:inline-block;
+    height: 300px;
+    width:300px;
+    justify-content: center;
+  
+
+}
+form{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size:large;
+    border-bottom: 2px solid rgb(95, 6, 76) ;
+}

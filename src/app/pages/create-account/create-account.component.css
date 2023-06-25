@@ -13,8 +13,9 @@
       padding: 10px;
   }
  .buttons{
-   padding-right: 10px;
+   margin-right: 10px;
  }
+
   button{
    color: rgb(170, 15, 98);
 
@@ -26,7 +27,7 @@
       border-style: double;
       text-align: center;
       background-color:whitesmoke;
-      margin-right:300px;;
+      margin-right:300px;
       margin-left:365px;    
       margin-top: auto; 
       margin-bottom: auto;

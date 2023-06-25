@@ -28,6 +28,8 @@ const routes: Routes = [
   {path:'rides', component:RidesComponent},
   {path:'entrance-ticket', component:EntranceTicketComponent},
   {path:'pay-receipt', component:PaymentReceiptComponent},
+  {path:'entrance-ticket', component:EntranceTicketComponent},
+  {path:'logout',component:LoginComponent},
 
 
 

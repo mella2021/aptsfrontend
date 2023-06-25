@@ -14,10 +14,10 @@
 
 } */
  img {
-    display:block;
-    justify-content: center;
+    display:flexbox;
     height: 100px;
     width:100px;
+    justify-content: center;
   
 
 }
@@ -38,7 +38,7 @@ footer{
     border-style: double;
     text-align: center;
     background-color:whitesmoke;
-    margin-right:300px;;
+    margin-right:300px;
     margin-left:365px;    
     margin-top: auto; 
     margin-bottom: auto;
