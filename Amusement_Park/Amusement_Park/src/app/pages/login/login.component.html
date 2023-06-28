@@ -1,0 +1,27 @@
+<br>
+<div class="logo-container">
+<img  [src]="logoPath">
+</div>
+<h1 id="title">Amusement Park Ticketing System</h1>
+<form>
+    <label for="username">USERNAME: </label>
+    <input type ="text" name="username" [(ngModel)]="loginObj.username"size="40px"><br>
+    <label for="password">PASSWORD: </label>
+    <input type ="password" name="password" [(ngModel)]="loginObj.password" size="40px"><br><br>
+    <button type="button"(click)="onlogin()"><b>LOG IN</b></button>
+<br>
+<br>
+</form>
+<br>
+<br>
+<br>
+<footer>
+    <label for="create_acc">DOESN'T HAVE ACCOUNT? </label>
+    <button type="button"><b>CREATE ONE</b></button><br><br>
+    <label for="reset pass">FORGOT PASSWORD? </label>
+    <button type="button"><b>CLICK HERE</b></button>
+    <br>
+    <br>
+
+</footer>
+ 

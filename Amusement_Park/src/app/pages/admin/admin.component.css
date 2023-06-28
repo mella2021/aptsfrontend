@@ -1,0 +1,34 @@
+.black-border{
+    border: 1px solid black;
+}
+main{
+    width: 90%;
+    margin : 3 rem auto 0px;
+
+}
+.toolbar{
+    height:4 rem;
+    display:flex;
+    justify-content: space-between;
+    align-items :center;
+}
+.add-rides{
+   width:20%;
+    display:flex;
+    justify-content: center;
+    align-items :center;
+
+}
+.search-rides{
+    width:30%;
+    height: 90%;
+    margin-right: 10px;
+    border-radius: 1 rem;
+    box-shadow: 0px 0px 10px rgba(red, rgb(156, 149, 155), blue, alpha);
+}
+.search-rides input{
+    width:100%;
+    height: 100%;
+    border-radius: 1 rem;
+
+}

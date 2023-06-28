@@ -1,21 +1,75 @@
-<nav class="navbar navbar-expand-sm bg-light">
 
-    <div class="container-fluid">
-      <!-- Links -->
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 3</a>
-        </li>
-      </ul>
+<div class="container-fluid g-0">
+  <app-header></app-header>
+<main class="black-border">
+<div class ="toolbar black-border">
+  <div class="add-rides">
+    <button type="button" style=" color: #099b2d;"class="btn btn-outline-sucess btn-lg" data-toggle="modal" data-target="#exampleModal">Add rides</button>
+  </div>
+
+  <div class="search-rides">
+    <input type="search" class="form-control" placeholder="Search Rides">
+  </div>
+  </div>
+  <div class="rides black-border">
+  <div class="row at-5">
+    <div class="col text-center">
+      <span class="text-secondary fs-2 fw-bold fst-italic">There are no rides added!</span>
     </div>
-  
-  </nav>
-  <div>
-    <router-outlet></router-outlet>
+    </div>
 </div>
+</main>
+</div>
+<br>
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Enter Ride Information</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="ridesForm">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Ride name" formControlName="name">
+
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Description" formControlName="description">
+            </div>
+
+               </div>
+          
+            <div class="row at -3">
+              <div class="col">
+                <label for="profile" class="form-label">Image</label>
+                <input type="file" class="form-control"  id="image" #fileInput>
+
+              </div>
+            </div>
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+       
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Insert</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+    <router-outlet></router-outlet>

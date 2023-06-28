@@ -1,27 +1,31 @@
-<br>
-<div class="logo-container">
-<img  [src]="logoPath">
-</div>
-<h1 id="title">Amusement Park Ticketing System</h1>
-<form>
-    <label for="username">USERNAME: </label>
-    <input type ="text" name="username" [(ngModel)]="loginObj.username"size="40px"><br>
-    <label for="password">PASSWORD: </label>
-    <input type ="password" name="password" [(ngModel)]="loginObj.password" size="40px"><br><br>
-    <button type="button"(click)="onlogin()"><b>LOG IN</b></button>
-<br>
-<br>
-</form>
-<br>
-<br>
-<br>
-<footer>
-    <label for="create_acc">DOESN'T HAVE ACCOUNT? </label>
-    <button type="button"><b>CREATE ONE</b></button><br><br>
-    <label for="reset pass">FORGOT PASSWORD? </label>
-    <button type="button"><b>CLICK HERE</b></button>
-    <br>
-    <br>
 
-</footer>
- 
+<br>
+<div class="card">
+    <img src ="assets/logofinal.png" alt="logo">
+    <div class="logo-container">
+</div>
+<p id="title">Amusement Park Ticketing System</p>
+<form (ngSubmit)="onSubmit()">
+    <label for="username">USERNAME: </label>
+    <input type ="text" name="username" [(ngModel)]="loginObj.username" required size="40px"><br>
+    <label for="password">PASSWORD: </label>
+    <input type ="password" name="password" [(ngModel)]="loginObj.password"required size="40px"><br><br>
+    <button type="submit" (click)="onLogin()">LOG IN</button>
+<br>
+<br>
+<br>
+<div class="loginpage">
+    <label for="create-account">Doesn't have an account? </label>
+    <a  routerLink="/create-account">Create one </a><br>
+    <label for="reset-password">Forgot Password?   </label>
+    <a  routerLink="/reset-password">Click here </a><br>
+
+</div>
+
+</form>
+</div>
+
+
+
+
+
